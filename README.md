@@ -1,11 +1,22 @@
-# Arabic-Phonetic-Output
-You can input the phonetic version of any Arabic text here. This software will show you output in Arabic (with vowels).
+# Arabic Phonetic Output System
 
-Ex- for getting "بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيْمِ", you have to type "bismi allAhi alrraHmAni alrraHiymi" as input.
+A Python-based system that converts Latin-script Arabic (written phonetically) into native Arabic script using character mapping and transformation rules.
 
-<b>Tips:</b><br>
-• The key below 'esc' key (`) will return ع<br>
-• Single Quote (') will return ء (Hamza)<br>
-• Pronounciation of "Tanween" confuses with "Jazam over ن". To get rid of this problem, follow this example: "AHaduN" will return "أَحَدٌ" but "AHadun
-" will return "أَحَدُنْ"<br>
-• Press 'ctrl+c' to copy the output. You don't need to select the arabic text.
+🌐 **Live Demo:** [writearabic.github.io](https://writearabic.github.io)
+
+---
+
+## 🔧 Features
+
+- Converts phonetic Arabic (e.g., `salaamuN`) into Arabic script (`سَلَامٌ`)
+- Supports basic diacritics and common consonant/vowel substitutions
+- Easy-to-use web interface hosted on GitHub Pages
+- Lightweight, browser-friendly, and works offline
+
+---
+
+## 🧠 How It Works
+
+- Uses a Python script to apply phonetic mappings and string transformations
+- Web version built with HTML, JavaScript, and CSS (pre-rendered using Python output)
+- Fully static deployment—no server needed
